@@ -50,7 +50,7 @@ för att köra projektet.
 
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller alla krav både på G- och VG-nivå. Studenten har skapat en todo-lista med funktionaliteter för att markera som klar/oklar, lägga till nya uppgifter, samt sortera och filtrera listan. Lifting state up har använts på ett bra sätt, och Tailwind CSS är implementerat för att förbättra det grafiska utseendet. Projektet är i allmänhet välstrukturerat och ger ett komplett intryck.
+📌 **Motivering:** Koden uppfyller inte bara alla grundläggande krav för betyget G, utan inkluderar även avancerade funktioner och strukturer som specificerats för betyget VG. Allt från att hantera tillståndsliftning, sortering och filtrering av todos, samt implementeringen av både ett formulär för att lägga till nya uppgifter och användandet av ett CSS-ramverk (tailwind) är väl utfört.
 
 💡 **Förbättringsförslag:**  
-Även om koden uppfyller alla VG-krav, kan det vara bra att tänka på generell kodoptimering och möjlig refaktorering för ökad läsbarhet och underhåll. Exempelvis kunde hantering av sortering och filtrering eventuellt förbättras ytterligare för att undvika upprepning (DRY-principen). Vidare skulle bättre hantering av fel och/eller edge-cases i användarinterfacet kunna tillföra användarvänlighet.
+Koden är välstrukturerad och lättläst. En förbättringsarea kunde vara att bryta ut fler små komponenter för ökad återanvändbarhet och testbarhet, samt möjliggöra för integration av ännu fler UX-förbättrande funktioner som animerade övergångar vid statusändringar eller mer komplexa filtreringsalternativ. Det hade också varit bra att se mer kommentarer kring funktioner och metoder för att förklara syftet och funktionaliteten ytterligare. Vidare kan det vara nyttigt att visa meddelanden när användaren försöker lägga till en tom todo.
