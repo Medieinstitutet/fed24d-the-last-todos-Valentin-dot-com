@@ -1,9 +1,10 @@
 # 📌 Rättningsrapport – fed24d-the-last-todos-Valentin-dot-com
 
 ## 🎯 Uppgiftens Krav:
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Tfc19Mhg)
 # Inlämningsuppgift Todo
 
-I denna inlämningsuppgift kommer ni att skapa er egen todo-lista i en react-applikation.
+I denna inlämningsuppgift kommer ni att skapa er egen todo-lista.
 Sidan skall visa ett antal punkter som skall göras. Dessa skall då komma upp på skärmen i form av en lista. När uppgiften är slutförd skall användaren kunna markera uppgiften som slutförd och uppgiften skall då tas bort från listan.
 
 ## Betyg G
@@ -11,17 +12,20 @@ Sidan skall visa ett antal punkter som skall göras. Dessa skall då komma upp p
 - Skapa en hårdkodad lista med punkter att göra (hitta på egna punkter, dessa skall inte bara vara en text)
 - Presentera listan på skärmen, helst med lite kontroll. Detta betyder i en html-struktur t.ex. i en ul/li-lista
 - Implementera klickhändelse för att hantera borttagandet av en todo.
-- Todo markeras som klar/tas bort från skärmen och markeras som klar i javascript-listan.
+- Todo markeras som klar på skärmen och markeras som klar i javascript-listan.
+- Ni behöver använda localStorage så att listan inte börjar om från början varje gång sidan används.
+- Ni behöver använda er av en komponent.
+- Ni behöver använda er av state med en lista med objekt.
 
 ## Betyg VG
 
 - Alla punkter under G
 - Kunna visa även klara händelser och klicka tillbaka den så att de blir oklara igen.
 - Skapa ett formulär som tillåter att en användare skapar nya todos efterhand.
-- Använda lifting state up för att dela upp dina komponenter bättre.
 - Kunna sortera ordningen på dina todos.
-- Implementera ett valfritt grafiskt ramverk till din todolista, t.ex. material ui eller tailwind.
-- Egen css får gärna skrivas och då skall ni ha en bra struktur och använda flex eller grid på ett bra sätt.
+- Implementera ett valfritt grafiskt ramverk, t.ex. tailwind eller material ui.
+- Ni behöver ha minst tre komponenter.
+- Ni måste använda Lifting State Up.
 
 ## Allmänt
 
@@ -50,7 +54,7 @@ för att köra projektet.
 
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller inte bara alla grundläggande krav för betyget G, utan inkluderar även avancerade funktioner och strukturer som specificerats för betyget VG. Allt från att hantera tillståndsliftning, sortering och filtrering av todos, samt implementeringen av både ett formulär för att lägga till nya uppgifter och användandet av ett CSS-ramverk (tailwind) är väl utfört.
+📌 **Motivering:** Koden uppfyller både G- och VG-kraven. Den innehåller en hårdkodad lista med punkter som presenteras i en strukturerad lista på skärmen. Användaren kan markera todos som klara och de lagras i `localStorage` för att bevaras över sidloadningar. Det finns funktionalitet för att visa klara händelser, sortera och filtrera todos, samt lägga till nya via ett formulär. Ett grafiskt ramverk, Tailwind CSS, används för styling, och koden inkluderar tre eller fler komponenter. State hanteras effektivt med hjälp av 'Lifting State Up'.
 
 💡 **Förbättringsförslag:**  
-Koden är välstrukturerad och lättläst. En förbättringsarea kunde vara att bryta ut fler små komponenter för ökad återanvändbarhet och testbarhet, samt möjliggöra för integration av ännu fler UX-förbättrande funktioner som animerade övergångar vid statusändringar eller mer komplexa filtreringsalternativ. Det hade också varit bra att se mer kommentarer kring funktioner och metoder för att förklara syftet och funktionaliteten ytterligare. Vidare kan det vara nyttigt att visa meddelanden när användaren försöker lägga till en tom todo.
+Även om koden är välstrukturerad och fungerar bra, finns det alltid små förbättringar som kan göras. Du kan lägga till mer robust felhantering och validering, speciellt vid inläsning och lagring av data i `localStorage`. Även fler kommentarer för att förklara komplexa delar av koden kan underlätta för läsningen och vidare utveckling. Se över om du kan bryta ned längre komponenter i mindre, mer hanterbara delar för ökad läsbarhet och underhållbarhet.
